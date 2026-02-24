@@ -1,0 +1,26 @@
+# Blender 5.0.1 MTL File: 'vintage_video_camera_1k.blend'
+# www.blender.org
+
+newmtl vintage_video_camera
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/vintage_video_camera_diff_1k.png
+map_Ns textures/vintage_video_camera_rough_1k.png
+map_Pm textures/vintage_video_camera_metal_1k.png
+map_Bump -bm 1.000000 textures/vintage_video_camera_nor_gl_1k.png
+
+newmtl vintage_video_camera_glass
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd textures/vintage_video_camera_diff_1k.png
+map_Ns textures/vintage_video_camera_rough_1k.png
+map_Pm textures/vintage_video_camera_metal_1k.png
+map_d textures/vintage_video_camera_diff_1k.png
+map_Bump -bm 1.000000 textures/vintage_video_camera_nor_gl_1k.png
